@@ -72,7 +72,7 @@ section{
 
 #about img {
     max-width: 100%;
-    border-radius: 30px;
+    border-radius: 1rem;
     height: 400px;
     width: 800px;
     object-fit: cover;
@@ -157,7 +157,8 @@ footer a {
     }
 
     #about p {
-        font-size: 1rem;
+        font-size: 11px;
+        line-height: 1rem;
     }
 
     #about .btn {
@@ -175,34 +176,10 @@ footer a {
 
     #about img {
         width: 100%;
-        /* Ensure image scales on smaller devices */
+        height: 250px;
     }
 }
 
-/* Media query for mobile devices (480px and below) */
-@media (max-width: 480px) {
-    #about {
-        padding-top: 40px;
-        padding-bottom: 40px;
-    }
-
-    #about h2 {
-        font-size: 1.8rem;
-    }
-
-    #about p {
-        font-size: 0.9rem;
-    }
-
-    #about .btn {
-        font-size: 0.9rem;
-        padding: 8px 15px;
-    }
-
-    #about img {
-        width: 100%;
-    }
-}
 
 /* Hero Section Responsive */
 
